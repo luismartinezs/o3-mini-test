@@ -57,25 +57,25 @@ export const config: Config = {
   weapons: [
     {
       name: "BasicGun",
-      shootingInterval: 500, // in ms
+      shootingInterval: 1200, // in ms
       bulletConfig: {
         size: 5,
-        speed: 5,
+        speed: 2,
         color: "yellow"
       }
     },
     {
       name: "RapidFire",
-      shootingInterval: 300,
+      shootingInterval: 500,
       bulletConfig: {
         size: 4,
-        speed: 7,
-        color: "lightyellow"
+        speed: 4,
+        color: "lightBlue"
       }
     }
   ],
   // Global enemy spawn interval.
-  enemySpawnInterval: 1000,
+  enemySpawnInterval: 500,
   // Define multiple enemy types with their stats.
   enemyTypes: {
     basic: {
